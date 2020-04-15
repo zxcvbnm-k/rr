@@ -1,0 +1,57 @@
+<html>
+
+<head>
+
+<script type="text/javascript">   
+
+function password() {   
+
+var testV = 1;   
+
+var pass1 = prompt('try one try','');   
+
+while (testV < 50) {   
+
+if (!pass1)   
+
+history.go(-1);   
+
+if (pass1 == "桑") {//初始密码123   
+
+alert('You're right!!！');   
+
+break;   
+
+}   
+
+testV+=1;   
+
+var pass1 =   
+
+prompt('again:');   
+
+}   
+
+if (pass1!="password" & testV ==50)   
+
+history.go(-1);   
+
+return " ";   
+
+}   
+
+document.write(password());   
+
+</script>  
+
+</head>
+
+
+
+<body>
+
+<p style="color:red; font-size:20;">厉害啊老大</p>
+
+</boody>
+
+</html>
